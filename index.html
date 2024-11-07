@@ -1,96 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="shortcut icon" href="../imagem/logo.vovó.jpg" type="image/x-icon">
+    <title>loja da vovó</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img class="logo" src="../imagem/logo.vovó.jpg" alt="">
+                <br>
+                <li><a href="index.html"><h1>Home</h1></a></li>
+                <li><a href="suporte.html"><h1>Suporte</h1></a></li>
+                <li><a href="catalogo.html"><H1>Catalogo</H1></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div class="card">
+    <img src="../imagem/caça palavras 2.webp" alt="">
+    <div>
+        <h1> Caça palavras Scottini</h1>
+        <span>R$5,00</span>
+        <button>comprar</button>
+    </div>
+    </div>
+    <div class="card">
+    <img src="../imagem/caça palavras 3.jpg" alt="">
+    <div>
+        <h1> Caça palavras Coquetel</h1>
+        <span>R$5,00</span>
+        <button>comprar</button>
+    </div>
+    </div>
+    <div class="card">
+    <img src="../imagem/caça palavras.1.jpg" alt="">
+    <div>
+        <h1> Caça palavras EdiCase</h1>
+        <span>R$20,00</span>
+        <button>comprar</button>
+    </div>
+    </div>
+    <div class="card">
+    <img src="../imagem/caça palavras.webp" alt="">
+    <div>
+        <h1> caça palavras EdiCase</h1>
+        <span>R$20,00</span>
+        <button>comprar</button>
+    </div>
+    </div>
+    <div class="card">
+    <img src="../imagem/garrafa termica 2.png" alt="">
+    <div>
+        <h1>garrafa termica</h1>
+        <span>R$40,00</span>
+        <button>comprar</button>
+    </div>
+    </div>
+    <div class="card">
+    <img src="../imagem/garrafa termica 3.jpg" alt="">
+    <div>
+        <h1> kit garrafa termica</h1>
+        <span>R$100,00</span>
+        <button>comprar</button>
+    </div>
+    </div>
+    <div class="card">
+    <img src="../imagem/garrafa termica.png" alt="">
+    <div>
+        <h1> garrafa termica</h1>
+        <span>R$35,00</span>
+        <button>comprar</button>
+    </div>
+    </div>
+    <div class="card">
+    <img src="../imagem/pano de prato 2.jpg" alt="">
+    <div>
+        <h1> kit pano de prato</h1>
+        <span>R$60,00</span>
+        <button>comprar</button>
+    </div>
+    </div>
+    <div class="card">
+    <img src="../imagem/pano de prato 3.webp" alt="">
+    <div>
+        <h1> kit pano de prato</h1>
+        <span>R$40,00</span>
+        <button>comprar</button>
+    </div>
+    </div>
+    <div class="card">
+    <img src="../imagem/pano de prato.webp" alt="">
+    <div>
+        <h1> kit pano de prato</h1>
+        <span>R$25,00</span>
+        <button>comprar</button>
+    </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/agulha-trico-madeira.webp" alt="">
+        <div>
+            <h1> kit agulha-trico-madeira</h1>
+            <span>R$25,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/agulha.crochet.webp" alt="">
+        <div>
+            <h1> kit agulha de croche</h1>
+            <span>R$15,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/agulha.fina.crochet.webp" alt="">
+        <div>
+            <h1> kit agulha fina de croche</h1>
+            <span>R$10,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/unidade-agulha-para-trico.metal.png" alt="">
+        <div>
+            <h1> agulha para trico</h1>
+            <span>R$5,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/agulha_croche_emborrachada_circulo.webp" alt="">
+        <div>
+            <h1> agulha de croche</h1>
+            <span>R$10,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/unidade-agulha-para-trico.jpg" alt="">
+        <div>
+            <h1> agulha para trico</h1>
+            <span>R$5,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/kit-trico-circulo.webp" alt="">
+        <div>
+            <h1>kit agulha de trico</h1>
+            <span>R$20,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/barroco.linha.jpg" alt="">
+        <div>
+            <h1> linha barroco</h1>
+            <span>R$10,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/cléa.linha.webp" alt="">
+        <div>
+            <h1> linhs cléa</h1>
+            <span>R$10,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/linha.amigurumi.webp" alt="">
+        <div>
+            <h1> linha amigurumi</h1>
+            <span>R$10,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/linha.anne.jpg" alt="">
+        <div>
+            <h1> linha anne</h1>
+            <span>R$10,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/linha.charme.webp" alt="">
+        <div>
+            <h1> linha charme</h1>
+            <span>R$10,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/linha.liza.webp" alt="">
+        <div>
+            <h1> linha liza</h1>
+            <span>R$10,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../imagem/maquina.de.crochet.webp" alt="">
+        <div>
+            <h1> Maquina de crochet</h1>
+            <span>R$150,00</span>
+            <button>comprar</button>
+        </div>
+    </div>
+</main>
+</body>
 </html>

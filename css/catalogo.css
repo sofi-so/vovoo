@@ -1,0 +1,39 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+header {
+   
+    background-color: rgb(250, 193, 173);
+}
+
+main{
+    background-color:rgb(250, 237, 221);
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: black;
+}
+
+li,a{
+    list-style: none;
+}
+
+nav ul{
+    list-style: none;
+    grid-template: 50px 50px 50px 50px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 1000px;
+    
+}
